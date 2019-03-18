@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import ExchangeRate from "./exchange-rate";
+import ExchangeRateApp from "./exchange-rate-app";
 
 ReactDOM.render(
-  <ExchangeRate />,
+  <ExchangeRateApp />,
   document.getElementById("this-is-where-mr-awesome-react-will-render")
 );
