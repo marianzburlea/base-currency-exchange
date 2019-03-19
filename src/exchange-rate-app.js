@@ -8,7 +8,6 @@ import ExchangeRate from "./component/exchange-rate";
 const ExchangeRateApp = () => {
   return (
     <div>
-      <h1>Exchange Rate!</h1>
       <TopMenu />
       <Router>
         <HomePage path="/" />
