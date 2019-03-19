@@ -7,14 +7,14 @@ import ExchangeRate from "./component/exchange-rate";
 
 const ExchangeRateApp = () => {
   return (
-    <div>
+    <>
       <TopMenu />
       <Router>
         <HomePage path="/" />
         <About path="/about" />
         <ExchangeRate path="/exchange" />
       </Router>
-    </div>
+    </>
   );
 };
 
