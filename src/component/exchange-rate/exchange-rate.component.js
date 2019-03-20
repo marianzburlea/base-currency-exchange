@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { API_URL } from "./exchange-rate.const";
 import { getCurrentDate } from "./exchange-rate.util";
 import InputText from "../input-text";
-import MultiSelect from "../multi-select/multi-select.component";
+import MultiSelect from "../multi-select";
 import ExchangeRatorList from "../exchange-rator-list";
 import { ExchangeRateStyled } from "./exchange-rate.style";
 
