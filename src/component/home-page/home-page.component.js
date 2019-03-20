@@ -27,6 +27,15 @@ const HomePage = () => {
         file and understand it. There is so much you can keep in your head at
         one time before stress settles in and you become less productive.
       </p>
+      <h2>Use Reach Router</h2>
+      <p>A few reasons to use this library are:</p>
+      <ol>
+        <li>Easy to use and understand</li>
+        <li>
+          Router manages the focus of your app on route transitions. There’s
+          nothing you have to do about it, it just happens.
+        </li>
+      </ol>
     </div>
   );
 };
