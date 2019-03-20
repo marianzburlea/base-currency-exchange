@@ -9,7 +9,7 @@ const ExchangeRateApp = () => {
   return (
     <>
       <TopMenu />
-      <Router>
+      <Router primary={false}>
         <HomePage path="/" />
         <About path="/about" />
         <ExchangeRate path="/exchange" />
