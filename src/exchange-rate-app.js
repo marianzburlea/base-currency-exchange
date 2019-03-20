@@ -8,12 +8,15 @@ import ExchangeRate from "./component/exchange-rate";
 const ExchangeRateApp = () => {
   return (
     <>
-      <TopMenu />
-      <Router primary={false}>
-        <HomePage path="/" />
-        <About path="/about" />
-        <ExchangeRate path="/exchange" />
-      </Router>
+      <div className="content">
+        <TopMenu />
+        <Router primary={false}>
+          <HomePage path="/" />
+          <About path="/about" />
+          <ExchangeRate path="/exchange" />
+        </Router>
+      </div>
+      <footer>&copy; {+new Date().getFullYear()} ExchangeRator</footer>
     </>
   );
 };

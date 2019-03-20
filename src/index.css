@@ -19,7 +19,25 @@ html {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-bourbon);
+}
+
+#this-is-where-mr-awesome-react-will-render {
+  margin: 0.4rem;
+}
+
+.content {
   background-color: var(--color-supernova);
+  border: 0.1rem solid var(--color-lipstick);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+  color: var(--color-antique-bronze);
+  margin: 1rem;
 }
 
 code {
